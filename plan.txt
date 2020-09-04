@@ -1,6 +1,0 @@
-Add div for title.
-Add nav for navigation to different assignments.
-Add nav for navigating between sites.
-
-Add css.
-Add whatever.
