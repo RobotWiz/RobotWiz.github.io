@@ -1,11 +1,11 @@
-*.mainContent {
+.mainContent {
   text-align: left;
   position: left;
   float: left;
 }
-*.interSite {
+.interSite {
 }
-*.assignments {
+.assignments {
   text-align: right;
   float: right;
   position: right;
