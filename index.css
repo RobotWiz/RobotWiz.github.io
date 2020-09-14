@@ -1,8 +1,10 @@
 mainContent {
   text-align: left;
+  float: left;
 }
 interSite {
 }
 assignments {
   text-align: right;
+  float: right;
 }
