@@ -1,11 +1,13 @@
 body {
   background-color: gray;
   text-align: center;
+  width: 600px;
 }
 
 img {
   width: 33%;
   length: 33%;
+  float: left;
 }
 
 .circular {
