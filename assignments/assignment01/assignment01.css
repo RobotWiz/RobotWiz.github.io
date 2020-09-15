@@ -2,6 +2,10 @@ body {
   background-color: blue;
     position: relative;
 }
+article {
+  background-color: gray;
+  text-align: center;
+}  
 p {
   background-color: gray;
   text-align: center;
