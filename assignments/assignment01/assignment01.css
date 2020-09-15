@@ -1,6 +1,7 @@
 body {
   background-color: blue;
     position: relative;
+  text-align: center;
 }
 article {
   background-color: gray;
@@ -9,8 +10,8 @@ height: 10em;
     position: relative ;
 }  
 span {
-  background-color: gray;
   text-align: center;
+  background-color: gray;
   width: 33%;
       margin: 0;
     position: absolute;
@@ -20,6 +21,7 @@ span {
     transform: translate(-50%, -50%);
 }  
 p {
+  text-align: center;
   background-color: gray;
   text-align: center;
   width: 33%;
@@ -34,6 +36,7 @@ p {
 }
 
 img {
+  text-align: center;
   width: 33%;
   length: 33%;
   float: left;
