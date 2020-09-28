@@ -2,7 +2,9 @@ body {
   color: skyblue;
 }
 
-
+.classy {
+  left-margin: 10px;
+}
 /* --- pre-existing css --- */
 .stripey tr:nth-child(even) {
   background-color: gray;
