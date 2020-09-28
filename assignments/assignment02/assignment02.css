@@ -1,12 +1,6 @@
-/* --- put your css here --- */ 
-
-/* external css is imported into html using the <link> tag in the <head> section, as shown below.
-
-  <head>
-    <link rel="stylesheet" href="assignment02.css">
-  </head>
-
-*/
+body {
+  color: skyblue;
+}
 
 
 /* --- pre-existing css --- */
