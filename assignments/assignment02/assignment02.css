@@ -2,8 +2,12 @@ body {
   color: skyblue;
 }
 
+div {
+  margin-bottom: 50px;
+}
+
 .classy {
-  left-margin: 10px;
+  margin-left: 10px;
 }
 /* --- pre-existing css --- */
 .stripey tr:nth-child(even) {
