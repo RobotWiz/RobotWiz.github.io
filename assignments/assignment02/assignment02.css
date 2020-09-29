@@ -23,6 +23,13 @@ span {
   border: 5px solid blue;
   background-color: yellow;
 }
+
+span.a {
+  /* No action needed */
+}
+span.b {}
+span.c {}
+  
 /* --- pre-existing css --- */
 .stripey tr:nth-child(even) {
   background-color: gray;
