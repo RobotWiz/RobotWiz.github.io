@@ -9,6 +9,16 @@ div {
 .classy {
   margin-left: 10px;
 }
+span {
+  width: 100px;
+  height: 50px;
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 5px solid blue;
+  background-color: yellow;
+}
 /* --- pre-existing css --- */
 .stripey tr:nth-child(even) {
   background-color: gray;
