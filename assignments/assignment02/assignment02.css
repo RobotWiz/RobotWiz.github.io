@@ -34,7 +34,7 @@ span {
   background-color: yellow;
 }
 img[alt=”cat icon”] {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   right: 0;
 }
