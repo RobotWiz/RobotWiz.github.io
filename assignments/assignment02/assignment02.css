@@ -28,6 +28,11 @@ img[alt=”cat icon”] {
   bottom: 0;
   right: 0;
 }
+img[alt=”dog icon”] {
+  position: relative;
+  bottom: 150px;
+  right: 50px;
+}
 span.a {
   /* No action needed */
 }
