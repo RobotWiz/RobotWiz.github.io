@@ -23,7 +23,11 @@ span {
   border: 5px solid blue;
   background-color: yellow;
 }
-
+img[alt=”cat icon”] {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
 span.a {
   /* No action needed */
 }
