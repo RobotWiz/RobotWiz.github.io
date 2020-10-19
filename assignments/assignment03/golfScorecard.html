@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Golf Scorecard Application</title>
+        <link rel="stylesheet" href="golfscorecard.css">
+        <!-- Bootstrap core CSS -->
+        <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!--Project specific CSS-->
+        <link href="golfScorecard.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Golf Scorecard</h1>
+        <table class="table table-striped">
+        <tr id="0">
+            <th>Hole</th>
+            <th>Par</th>
+            <th>Score</th>
+            <th>Over</th>
+            <th>Actions</th>
+        </tr>
+        <!--Each row is essentially it's own application, structure is an int, operations are add or subtract, then I need to update.-->
+        <tr id="1">
+            <td>1</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('1', '+')">+</button> <button class="btn btn-danger" onclick="update('1', '-')">-</button><button class="btn btn-success" onclick="update('1', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="2">
+            <td>2</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('2', '+')">+</button> <button class="btn btn-danger" onclick="update('2', '-')">-</button><button class="btn btn-success" onclick="update('2', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="3">
+            <td>3</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('3', '+')">+</button> <button class="btn btn-danger" onclick="update('3', '-')">-</button><button class="btn btn-success" onclick="update('3', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="4">
+            <td>4</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('4', '+')">+</button> <button class="btn btn-danger" onclick="update('4', '-')">-</button><button class="btn btn-success" onclick="update('4', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="5">
+            <td>5</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('5', '+')">+</button> <button class="btn btn-danger" onclick="update('5', '-')">-</button><button class="btn btn-success" onclick="update('5', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="6">
+            <td>6</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('6', '+')">+</button> <button class="btn btn-danger" onclick="update('6', '-')">-</button><button class="btn btn-success" onclick="update('6', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="7">
+            <td>7</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('7', '+')">+</button> <button class="btn btn-danger" onclick="update('7', '-')">-</button><button class="btn btn-success" onclick="update('7', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="8">
+            <td>8</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('8', '+')">+</button> <button class="btn btn-danger" onclick="update('8', '-')">-</button><button class="btn btn-success" onclick="update('8', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="9">
+            <td>9</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('9', '+')">+</button> <button class="btn btn-danger" onclick="update('9', '-')">-</button><button class="btn btn-success" onclick="update('9', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="10">
+            <td>10</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('10', '+')">+</button> <button class="btn btn-danger" onclick="update('10', '-')">-</button><button class="btn btn-success" onclick="update('10', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="11">
+            <td>11</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('11', '+')">+</button> <button class="btn btn-danger" onclick="update('11', '-')">-</button><button class="btn btn-success" onclick="update('11', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="12">
+            <td>12</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('12', '+')">+</button> <button class="btn btn-danger" onclick="update('12', '-')">-</button><button class="btn btn-success" onclick="update('12', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="13">
+            <td>13</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('13', '+')">+</button> <button class="btn btn-danger" onclick="update('13', '-')">-</button><button class="btn btn-success" onclick="update('13', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="14">
+            <td>14</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('14', '+')">+</button> <button class="btn btn-danger" onclick="update('14', '-')">-</button><button class="btn btn-success" onclick="update('14', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="15">
+            <td>15</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('15', '+')">+</button> <button class="btn btn-danger" onclick="update('15', '-')">-</button><button class="btn btn-success" onclick="update('15', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="16">
+            <td>16</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('16', '+')">+</button> <button class="btn btn-danger" onclick="update('16', '-')">-</button><button class="btn btn-success" onclick="update('16', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="17">
+            <td>17</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('17', '+')">+</button> <button class="btn btn-danger" onclick="update('17', '-')">-</button><button class="btn btn-success" onclick="update('17', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="18">
+            <td>18</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success" onclick="update('18', '+')">+</button> <button class="btn btn-danger" onclick="update('18', '-')">-</button><button class="btn btn-success" onclick="update('18', 'clear')">Clear</button></td>
+        </tr>
+        <tr id="totals">
+            <td id="allTotal">TOTALS</td>
+            <td id="parTotal">-</td>
+            <td id="scoreTotal">-</td>
+            <td id="overTotal">-</td>
+            <td id="NA"></td>
+        </tr>
+        </table>
+        <script type="javascript" src="golfScorecard.js"></script>
+        <script>
+        function update(id, operation) {
+            // HACKY CODE!
+            // Upon reflecting upon the above comment, I think that would be a good name of a game.
+            const parTotal = 4 * 18 // Par is always 4
+            // id is the id of an element, operation is one of + or -.
+            if(operation === '+') {var op = add;}
+            else if(operation === '-') {var op = sub;}
+            else if(operation === 'clear') {
+                var op = clear
+                document.getElementById(id).children[3] = '-'
+            }
+            let data = document.getElementById(id)
+            let score = data.children[2]
+            score.textContent = op(score.textContent)
+            data.children[3].textContent = parseInt(data.children[1].textContent) - parseInt(score.textContent)
+            document.getElementById('parTotal').textContent = parTotal
+            document.getElementById('scoreTotal').textContent = op(document.getElementById('scoreTotal').textContent)
+            let scoreTotal = op(parseInt(document.getElementById('scoreTotal').textContent))
+            if(scoreTotal === '-') {var text = '-'}
+            else {var text = parseInt(document.getElementById('parTotal').textContent) - scoreTotal}
+            document.getElementById('overTotal').textContent = scoreTotal
+            if(operation === 'clear') {
+                document.getElementById(id).children[3].textContent = '-'
+            }
+        }
+        // Alternatively to this, I could have put the function object in the onclick code, but I thought this would be better for some reason, I do not have that reason.
+
+        function add(number) {
+            if(number==='-'){var value = 0}
+            else {var value = parseInt(number)}
+            return value + 1
+        }
+        
+        function sub(number) {
+            if(number==='-'){var value = 0}
+            else {var value = parseInt(number)}
+            return value - 1
+        }
+
+        function clear(number) {
+            return '-'
+        }
+        </script>
+    </body>
+</html>
