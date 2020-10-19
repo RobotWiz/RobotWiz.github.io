@@ -1,0 +1,16 @@
+body {
+  width: 600px;
+}
+.mainContent {
+  text-align: left;
+  position: left;
+  float: left;
+  color: red;
+}
+.interSite {
+}
+.assignments {
+  text-align: right;
+  float: right;
+  position: right;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+  <title>Welcome!</title> 
+  <meta charset="utf-8" /> 
+ </head> 
+ <body> 
+  <h1>Timothy's Student Home Page</h1> 
+  <nav class=".intersite"> 
+   <a href="#">GitHub Pages</a> | 
+   <a href="svsu.edu/~tmheath">mDrive</a> | 
+   <a href="csis.svsu.edu/~tmheath">CSIS server</a> 
+  </nav> 
+  <br /> 
+  <br /> 
+  <div class=".maincontent"> 
+   <h2>Assignments</h2> 
+   <nav class=".assignments"> 
+    <a href="assignments/assignment01/assignment01.html">Assignment 01</a>
+    <br /> 
+    <a href="assignments/assignment02/assignment02.html">Assignment 02</a>
+    <br /> 
+    <a href="assignments/assignment02/assignment03.html">Assignment 03</a>
+    <br /> 
+    <a href="assignments/assignment02/assignment04.html">Assignment 04</a>
+    <br /> 
+    <a href="assignments/assignment02/assignment05.html">Assignment 05</a>
+    <br /> 
+    <a href="assignments/assignment02/assignment06.html">Assignment 06</a>
+    <br /> 
+    <a href="assignments/assignment02/assignment07.html">Assignment 07</a>
+    <br /> 
+   </nav> 
+   <form>
+     Enter name. 
+    <br /> 
+    <input type="text" /> 
+    <br /> Enter secret. 
+    <br /> 
+    <input type="text" /> 
+    <br /> 
+    <input type="Button" value="Submit" /> 
+   </form> 
+   <table> 
+    <tbody>
+     <tr>
+      <th>First</th>
+      <th>Second</th>
+      <th>Third</th>
+     </tr> 
+     <tr>
+      <td>7326452879</td>
+      <td>3978467236</td>
+      <td>54796657863</td>
+     </tr> 
+     <tr>
+      <td>8978347</td>
+      <td>8598346</td>
+      <td>9895379235</td>
+     </tr> 
+     <tr>
+      <td>86</td>
+      <td>23</td>
+      <td>8</td>
+     </tr>   
+    </tbody>
+   </table>
+  </div>
+ </body>
+</html>
